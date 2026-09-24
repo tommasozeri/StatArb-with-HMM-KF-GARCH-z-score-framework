@@ -4,8 +4,8 @@ Code for the Master's thesis *High-Dimensional Statistical Arbitrage: An Integra
 
 | Notebook | Thesis section | Content |
 |---|---|---|
-| `Pairs_sandbox.ipynb` | Part IV, §12 | Pair screening, Kalman hedge ratio, GARCH, HMM regime gate; OLS vs KF+GARCH vs KF+GARCH+HMM; 2020+ holdout and 2008–2009 crisis experiment; robustness checks |
-| `Mstatarb_sandbox.ipynb` | Part IV, §13 | Basket spreads via VECM / Box–Tiao, GARCH, HMM; raw vs static vs full; holdout and 2008–2009 crisis experiment |
+| `Pairs_Statarb_Pipleine.ipynb` | Part IV, §12 | Pair screening, Kalman hedge ratio, GARCH, HMM regime gate; OLS vs KF+GARCH vs KF+GARCH+HMM; 2020+ holdout and 2008–2009 crisis experiment; robustness checks |
+| `Multivariate_Statarb_Pipeline.ipynb` | Part IV, §13 | Basket spreads via VECM / Box–Tiao, GARCH, HMM; raw vs static vs full; holdout and 2008–2009 crisis experiment |
 
 ## Running
 The notebooks were developed on Google Colab. They read one HDF5 price database (not included; its expected layout is described at the top of each notebook) and write every intermediate result back to it.
